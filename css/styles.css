@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    background-image: url("../images/beach.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.boy {
+    width: 100px;
+}
+.boyimage {
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+.cartoonimage img {
+    width: 80px;
+}
+.cartoonimage {
+    position: absolute;
+    bottom: 80px;
+    left: 600px;
+}
+.kiteimage img {
+    width: 500px;
+}
+.kiteimage {
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    animation: kite 6s infinite  ease-in-out;
+}
+.ballimage img {
+    width: 30px;
+}
+.ballimage {
+    position: absolute;
+    top: 530px;
+    right: 800px;
+    animation: ball 12s linear infinite alternate;
+    transform: translate(50%, -50%)
+}

@@ -1,0 +1,21 @@
+@keyframes kite {
+     30% {right: 10px;}
+     50% {left: 20px;}
+     70% { right: 30px;}
+}
+@keyframes ball {
+    10% {top: 533px;}
+    15% { top: 530px;}
+    20% { top: 533px;}
+    35%{ top: 530px;}
+    55%{ top: 532px;}
+    75%{ top: 530px;}
+    85%{ top: 532px;}
+    95%{ top: 530px;}
+    100% {
+        right: 300px;
+        transform: translate(50%, -50%) rotate(360deg);
+    }
+
+
+}
